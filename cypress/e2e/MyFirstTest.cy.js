@@ -19,3 +19,11 @@ describe('My First Test', () => { //describe keyword is to write a test suite
 //     expect(true).to.equal(true)
 //   })
 // })
+
+//--Execution Types--
+// 1. execute from the cypress application -> npx cypress open
+// 2. execte through the command prompt (headless mode) -> npx cypress run
+// 3. execute with the the browser directly (headed mode) -> npx cypress run --headed
+// 4. execute specific file -> npx cypress run --spec --cypress\e2e\MyFirstTest.cy.js(location of the specification file)
+// 5. execute through a browser you want (headless mode) -> npx cypress run --browser chrome
+// 6. execute from the browser directly (headed mode) -> npx cypress run --browser chrome --headed
